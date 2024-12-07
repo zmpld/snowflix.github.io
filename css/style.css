@@ -1,0 +1,42 @@
+body, html {
+    height: 90%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-center {
+    color: #c6c7d1;
+    font-family: Copperplate, Papyrus, fantasy;
+    margin-bottom: 25px;
+}
+
+.background {
+    position: absolute;
+    height: 250%;
+    width: 100%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa454069-1f38-4db1-a9e3-75d6b00c42e8/dg5nrpk-15dda3c1-6bb3-4127-9e83-29c7c42436e2.jpg/v1/fill/w_1280,h_1829,q_75,strp/twd_dead_city_poster_by_akithefull_dg5nrpk-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyOSIsInBhdGgiOiJcL2ZcL2FhNDU0MDY5LTFmMzgtNGRiMS1hOWUzLTc1ZDZiMDBjNDJlOFwvZGc1bnJway0xNWRkYTNjMS02YmIzLTQxMjctOWU4My0yOWM3YzQyNDM2ZTIuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.yQBtcWcFOx-ZQBEIyio_20j8Dw2Mvu6gsuxr-YycYYE");
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: -1;
+}
+.background::before { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%; 
+    background: radial-gradient(circle, transparent, rgba(0, 0, 0, 1.5)); 
+    z-index: -1; }
+.container {
+    text-align: center;
+}
+.card {
+    margin-bottom: 20px;
+}
+.footer{
+	text-align: center;
+	font-size: 13px;
+	background-color:#2e4053;
+	padding:82px;
+}
